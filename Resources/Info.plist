@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key><string>ProcessVolume</string>
+    <key>CFBundleIdentifier</key><string>local.leon.ProcessVolume</string>
+    <key>CFBundleName</key><string>音量</string>
+    <key>CFBundleDisplayName</key><string>音量</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleShortVersionString</key><string>0.1.0</string>
+    <key>LSMinimumSystemVersion</key><string>14.2</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>LSUIElement</key><true/>
+    <key>NSAudioCaptureUsageDescription</key><string>读取所选进程的音频，以实时调整它的音量。音频仅在本机处理，不保存或上传。</string>
+</dict>
+</plist>
